@@ -3,18 +3,29 @@
 <head>
   <title>fortnite nasil indirilir</title>
   <style>
-    a{
+    a:hover,input{
+      background-color: blue;
+      border-radius: 7px;
+      border-width: 7px;
+    }
+    a:active{
       display: inline-block;
       color: white;
       background-color: rgb(195, 0, 255);
       text-decoration:none ;
-      padding: 12p  32px;
+      padding: 12px 32px;
       border-radius: 6px;
+      color: chartreuse;
     }
     
     
-    p2{
+    p2:hover:active{
       color: black;
+      background-color: cyan;
+      border-radius: 5px;
+      border-width: 5px;
+      color: cadetblue;
+
     }
     h2,p1{
       color: black;
@@ -111,25 +122,22 @@
       padding: 20px;
       text-align: center;
       
+      
+    }
+    input:focus{
+      color: #022b0c;
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NZJKGXGMF2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NZJKGXGMF2');
-</script>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZJKGXGMF2"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-NZJKGXGMF2'); </script>
 
     <h1>fortnite indir</h1>
   </header>
 
   <nav>
+    
     <a href="#">Anasayfa</a>
     <a href="#">Hakkımızda</a>
     <a href="#">Hizmetler</a>
@@ -155,14 +163,54 @@
     
   </section>
   
+  
   <iframe width="560" height="315" src="https://www.youtube.com/embed/aYLVTv0oIog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <p>NOT:FORTNİTE İNDİRMEK İÇİN EPİCGAMES İNDİRİLMESİ LAZIM</P>
+  
   <a href="https://www.fortnite.com/">fortnite indir</a>
   <p3>eğer bu olmazsa  burdan deneyiniz</p3>
   <a href="https://store.epicgames.com/tr/download">epic games'indirmek için tıkalyın</a>
+  <input type="text">
   <footer>
    
     &copy; 2023 fortnite indirme sitesi tüm hakları sınırlıdır
   </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 </html>
